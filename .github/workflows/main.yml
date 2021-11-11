@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: junxnone/update-readme@main
         with:
-          push_branch: "gh-page"
+          push_branch: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           actor: ${{ github.actor }}
